@@ -1,11 +1,16 @@
 <!DOCTYPE html>
+{% load static %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>The explore examples file </title>
+    <link rel="stylesheet" href="{% static "/css/mystyle.css" %}"/>
 </head>
 <body>
 <h1>Hello this is the index file inside templates</h1>
 <h3>Here is a message from the example app {{ example_value }}</h3>
+<h4>This is a cat picture</h4>
+<img src="{% static "images/Screenshot from 2022-01-21 19-03-16.png" %}" alt="Umm well thats not here">
 </body>
 </html>
