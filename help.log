@@ -1,0 +1,6 @@
+INFO:root:33
+INFO:root:63
+INFO:root:9
+INFO:root: This is the random numer 87
+INFO:root: This is the random 95 number
+INFO:django.utils.autoreload:/home/michael/djangoProjects/exampleTemlates/explore_templates/explore_templates/settings.py changed, reloading.
